@@ -10,7 +10,7 @@ model = joblib.load('Insuranceprediction.pkl')
 def Welcome():
     return render_template('base.html')
 
-@app.route('/predict', methods = ['POST'])
+@app.route('/predict', methods = ['GET',POST'])
 def predict():
     age = request.form.get('age')
     sex = request.form.get('sex')
