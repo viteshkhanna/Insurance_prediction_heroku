@@ -25,4 +25,4 @@ def predict():
 
     return render_template('base.html' , prediction_text = f"Insurance Expense will be ${output}")
 
-app.run(debug=True)
+app.run(host = "0.0.0.0",debug=True)
