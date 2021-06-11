@@ -1,1 +1,1 @@
-web:gunicorn app:train
+web:gunicorn train:app
