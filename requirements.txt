@@ -39,9 +39,6 @@ scikit-learn
 scipy 
 searchgrid==0.2.0
 six==1.16.0
-tensorboard==2.1.1
-tensorflow-cpu==2.1.0
-tensorflow-estimator==2.1.0
 termcolor==1.1.0
 threadpoolctl 
 typing-extensions==3.10.0.0
